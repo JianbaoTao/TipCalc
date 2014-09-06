@@ -19,7 +19,6 @@
 		1DE769DD19BA3317003D3CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C519BA3317003D3CA4 /* UIKit.framework */; };
 		1DE769E519BA3317003D3CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769E319BA3317003D3CA4 /* InfoPlist.strings */; };
 		1DE769E719BA3317003D3CA4 /* TipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE769E619BA3317003D3CA4 /* TipCalcTests.m */; };
-		1DE769F119BA34C8003D3CA4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769F019BA34C8003D3CA4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D046C2019BAAEAD00A9C85A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1DE769BE19BA3317003D3CA4 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE769C119BA3317003D3CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DE769C319BA3317003D3CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,7 +49,6 @@
 		1DE769E219BA3317003D3CA4 /* TipCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalcTests-Info.plist"; sourceTree = "<group>"; };
 		1DE769E419BA3317003D3CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DE769E619BA3317003D3CA4 /* TipCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalcTests.m; sourceTree = "<group>"; };
-		1DE769F019BA34C8003D3CA4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +78,7 @@
 		1DE769B519BA3317003D3CA4 = {
 			isa = PBXGroup;
 			children = (
+				1D046C2019BAAEAD00A9C85A /* README.md */,
 				1DE769C719BA3317003D3CA4 /* TipCalc */,
 				1DE769E019BA3317003D3CA4 /* TipCalcTests */,
 				1DE769C019BA3317003D3CA4 /* Frameworks */,
@@ -120,7 +120,6 @@
 		1DE769C819BA3317003D3CA4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DE769F019BA34C8003D3CA4 /* README.md */,
 				1DE769C919BA3317003D3CA4 /* TipCalc-Info.plist */,
 				1DE769CA19BA3317003D3CA4 /* InfoPlist.strings */,
 				1DE769CD19BA3317003D3CA4 /* main.m */,
@@ -222,7 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE769F119BA34C8003D3CA4 /* README.md in Resources */,
 				1DE769CC19BA3317003D3CA4 /* InfoPlist.strings in Resources */,
 				1DE769D419BA3317003D3CA4 /* Images.xcassets in Resources */,
 			);
@@ -441,6 +439,7 @@
 				1DE769EC19BA3317003D3CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DE769ED19BA3317003D3CA4 /* Build configuration list for PBXNativeTarget "TipCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +448,7 @@
 				1DE769EF19BA3317003D3CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
