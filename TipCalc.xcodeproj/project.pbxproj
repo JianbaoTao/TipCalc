@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D046C2419BAD63E00A9C85A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C2219BAD63E00A9C85A /* MainViewController.m */; };
+		1D046C2519BAD63E00A9C85A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D046C2319BAD63E00A9C85A /* MainViewController.xib */; };
+		1D046C2A19BB5A9F00A9C85A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C2819BB5A9F00A9C85A /* SettingsViewController.m */; };
+		1D046C2B19BB5A9F00A9C85A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D046C2919BB5A9F00A9C85A /* SettingsViewController.xib */; };
+		1D046C2F19BB650100A9C85A /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C2E19BB650100A9C85A /* Settings.m */; };
+		1D046C3319BBBAF300A9C85A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C3219BBBAF300A9C85A /* Utils.m */; };
+		1D046C3719BBBB4F00A9C85A /* UtilsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C3619BBBB4F00A9C85A /* UtilsTest.m */; };
+		1D046C3919BBBC5A00A9C85A /* SettingsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C3819BBBC5A00A9C85A /* SettingsTest.m */; };
+		1D046C3F19BBFAFE00A9C85A /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C3D19BBFAFE00A9C85A /* BasicViewController.m */; };
+		1D046C4019BBFAFE00A9C85A /* BasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D046C3E19BBFAFE00A9C85A /* BasicViewController.xib */; };
+		1D046C4419BC2C1300A9C85A /* UIViewController+TipCalcCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D046C4319BC2C1300A9C85A /* UIViewController+TipCalcCategory.m */; };
 		1DE769C219BA3317003D3CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C119BA3317003D3CA4 /* Foundation.framework */; };
 		1DE769C419BA3317003D3CA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C319BA3317003D3CA4 /* CoreGraphics.framework */; };
 		1DE769C619BA3317003D3CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C519BA3317003D3CA4 /* UIKit.framework */; };
@@ -33,6 +44,23 @@
 
 /* Begin PBXFileReference section */
 		1D046C2019BAAEAD00A9C85A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1D046C2119BAD63E00A9C85A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1D046C2219BAD63E00A9C85A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1D046C2319BAD63E00A9C85A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1D046C2719BB5A9F00A9C85A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1D046C2819BB5A9F00A9C85A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		1D046C2919BB5A9F00A9C85A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		1D046C2D19BB650100A9C85A /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		1D046C2E19BB650100A9C85A /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		1D046C3119BBBAF300A9C85A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		1D046C3219BBBAF300A9C85A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		1D046C3619BBBB4F00A9C85A /* UtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsTest.m; sourceTree = "<group>"; };
+		1D046C3819BBBC5A00A9C85A /* SettingsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTest.m; sourceTree = "<group>"; };
+		1D046C3C19BBFAFE00A9C85A /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		1D046C3D19BBFAFE00A9C85A /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		1D046C3E19BBFAFE00A9C85A /* BasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicViewController.xib; sourceTree = "<group>"; };
+		1D046C4219BC2C1300A9C85A /* UIViewController+TipCalcCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TipCalcCategory.h"; sourceTree = "<group>"; };
+		1D046C4319BC2C1300A9C85A /* UIViewController+TipCalcCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TipCalcCategory.m"; sourceTree = "<group>"; };
 		1DE769BE19BA3317003D3CA4 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE769C119BA3317003D3CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DE769C319BA3317003D3CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,6 +103,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D046C2619BAD64C00A9C85A /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C2119BAD63E00A9C85A /* MainViewController.h */,
+				1D046C2219BAD63E00A9C85A /* MainViewController.m */,
+				1D046C2319BAD63E00A9C85A /* MainViewController.xib */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		1D046C2C19BB5AA400A9C85A /* Settings View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C2719BB5A9F00A9C85A /* SettingsViewController.h */,
+				1D046C2819BB5A9F00A9C85A /* SettingsViewController.m */,
+				1D046C2919BB5A9F00A9C85A /* SettingsViewController.xib */,
+			);
+			name = "Settings View Controller";
+			sourceTree = "<group>";
+		};
+		1D046C3019BB650A00A9C85A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C2D19BB650100A9C85A /* Settings.h */,
+				1D046C2E19BB650100A9C85A /* Settings.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1D046C3A19BBBC6300A9C85A /* ModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C3819BBBC5A00A9C85A /* SettingsTest.m */,
+			);
+			name = ModelTest;
+			sourceTree = "<group>";
+		};
+		1D046C4119BBFB0600A9C85A /* Basic View */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C3C19BBFAFE00A9C85A /* BasicViewController.h */,
+				1D046C3D19BBFAFE00A9C85A /* BasicViewController.m */,
+				1D046C3E19BBFAFE00A9C85A /* BasicViewController.xib */,
+			);
+			name = "Basic View";
+			sourceTree = "<group>";
+		};
+		1D046C4519BC2C2500A9C85A /* TipCalc Category */ = {
+			isa = PBXGroup;
+			children = (
+				1D046C4219BC2C1300A9C85A /* UIViewController+TipCalcCategory.h */,
+				1D046C4319BC2C1300A9C85A /* UIViewController+TipCalcCategory.m */,
+			);
+			name = "TipCalc Category";
+			sourceTree = "<group>";
+		};
 		1DE769B519BA3317003D3CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +195,15 @@
 			children = (
 				1DE769D019BA3317003D3CA4 /* AppDelegate.h */,
 				1DE769D119BA3317003D3CA4 /* AppDelegate.m */,
+				1D046C3119BBBAF300A9C85A /* Utils.h */,
+				1D046C3219BBBAF300A9C85A /* Utils.m */,
+				1D046C4519BC2C2500A9C85A /* TipCalc Category */,
 				1DE769D319BA3317003D3CA4 /* Images.xcassets */,
 				1DE769C819BA3317003D3CA4 /* Supporting Files */,
+				1D046C2619BAD64C00A9C85A /* Main View Controller */,
+				1D046C2C19BB5AA400A9C85A /* Settings View Controller */,
+				1D046C3019BB650A00A9C85A /* Model */,
+				1D046C4119BBFB0600A9C85A /* Basic View */,
 			);
 			path = TipCalc;
 			sourceTree = "<group>";
@@ -132,7 +223,9 @@
 			isa = PBXGroup;
 			children = (
 				1DE769E619BA3317003D3CA4 /* TipCalcTests.m */,
+				1D046C3619BBBB4F00A9C85A /* UtilsTest.m */,
 				1DE769E119BA3317003D3CA4 /* Supporting Files */,
+				1D046C3A19BBBC6300A9C85A /* ModelTest */,
 			);
 			path = TipCalcTests;
 			sourceTree = "<group>";
@@ -222,7 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE769CC19BA3317003D3CA4 /* InfoPlist.strings in Resources */,
+				1D046C2519BAD63E00A9C85A /* MainViewController.xib in Resources */,
 				1DE769D419BA3317003D3CA4 /* Images.xcassets in Resources */,
+				1D046C2B19BB5A9F00A9C85A /* SettingsViewController.xib in Resources */,
+				1D046C4019BBFAFE00A9C85A /* BasicViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE769D219BA3317003D3CA4 /* AppDelegate.m in Sources */,
+				1D046C2419BAD63E00A9C85A /* MainViewController.m in Sources */,
+				1D046C2F19BB650100A9C85A /* Settings.m in Sources */,
+				1D046C3319BBBAF300A9C85A /* Utils.m in Sources */,
+				1D046C3F19BBFAFE00A9C85A /* BasicViewController.m in Sources */,
 				1DE769CE19BA3317003D3CA4 /* main.m in Sources */,
+				1D046C2A19BB5A9F00A9C85A /* SettingsViewController.m in Sources */,
+				1D046C4419BC2C1300A9C85A /* UIViewController+TipCalcCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D046C3919BBBC5A00A9C85A /* SettingsTest.m in Sources */,
 				1DE769E719BA3317003D3CA4 /* TipCalcTests.m in Sources */,
+				1D046C3719BBBB4F00A9C85A /* UtilsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
