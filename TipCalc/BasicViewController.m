@@ -32,6 +32,7 @@
 
 - (void)viewDidLoad
 {
+    NSLog(@"view did load");
     [super viewDidLoad];
     self.splitField.text = @"1";
     [self.billField becomeFirstResponder];
@@ -39,8 +40,21 @@
 }
 
 - (void) viewWillAppear:(BOOL)animated {
+    NSLog(@"view will appear");
     [self updateRateControl];
     [self updateLabels];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    NSLog(@"view did appear");
+}
+
+- (void) viewWillDisappear:(BOOL)animated {
+    NSLog(@"view will disappear");
+}
+
+- (void) viewDidDisappear:(BOOL)animated {
+    NSLog(@"view did disappear");
 }
 
 - (void) updateRateControl {
