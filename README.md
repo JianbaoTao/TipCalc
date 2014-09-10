@@ -2,7 +2,7 @@
 
 This is an iOS demo application for calculating tips.
 
-Time spent: 2 hours spent in total
+Time spent: 10 hours spent in total
 
 Completed user stories:
 
