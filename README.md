@@ -6,15 +6,14 @@ Time spent: 2 hours spent in total
 
 Completed user stories:
 
- * [x] Required: User can view a list of latest box office movies including title, cast and tomatoes rating
- * [x] Required: User can click on a movie in the list to bring up a details page with additional information such as synopsis
- * [x] Optional: Placeholder image is used for movie posters loaded in from the network
- 
-Notes:
+ * [x] Required: Create a Settings view controller
+ * [x] Required: Design the Settings page
+ * [x] Required: Loading and saving
+ * [x] Required: View controller lifecycle
+ * [ ] Optional: Momentarily remember the bill amount across app restarts
+ * [ ] Optional: Add a light/dark color theme
 
-Spent some time making the UI work across multiple phone resolutions by playing around with the RelativeLayout.
-
-Walkthrough of all user stories:
+Walkthrough:
 
 ![Video Walkthrough](tipcalc.gif)
 
